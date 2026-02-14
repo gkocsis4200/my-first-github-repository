@@ -83,7 +83,6 @@ git push -u origin new-branch-name
 1. **Update Local Repositories**
    - Team members need to update their local repositories:
    ```bash
-   git fetch origin
    git branch -m old-branch-name new-branch-name
    git fetch origin
    git branch -u origin/new-branch-name new-branch-name
